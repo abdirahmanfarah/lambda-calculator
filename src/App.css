@@ -20,3 +20,46 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .App {
+      width:100%;
+  }
+
+.specials-top {
+    display:flex;
+    margin:auto;
+    justify-content:flex-start;
+    flex-wrap:wrap-reverse;
+
+}
+.specials-char {
+    background-color:#015B9A;
+    padding:30px;
+}
+.number-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:70%;
+    margin-bottom:30px;
+}
+.number-char{
+    padding:30px;
+    margin:10px;
+    background-color:#004582;
+    border-radius: 50%;
+}
+.operator-container{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position:absolute;
+    margin-left:381px;
+    margin-bottom:80px
+}
+.op-char{
+    background-color:#007489;
+    padding:20px;
+    width:40%;
+    border-radius: 50%
+}

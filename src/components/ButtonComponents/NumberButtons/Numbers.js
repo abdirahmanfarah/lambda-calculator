@@ -15,7 +15,7 @@ export default function Numbers() {
   // console.log(numberState);
 
   return (
-    <div>
+    <div className = 'number-container'>
       {
         numberState.map((numbers, index) => {
          return <NumberButton key = {index} numbers ={numbers} /> 

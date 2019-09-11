@@ -4,7 +4,7 @@ const SpecialButton = (props) => {
   return (
     <>
 
-      <button>
+      <button className = "specials-char">
       {
 
         props.specials

@@ -13,7 +13,7 @@ export default function Specials () {
   const [specialState, setSpecialState] = useState(specials);
 
   return (
-    <div>
+    <div className = "specials-top">
       {
 
        specialState.map((specials, index) => {
